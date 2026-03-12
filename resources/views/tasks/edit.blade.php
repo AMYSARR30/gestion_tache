@@ -1,3 +1,6 @@
+@extends('layouts.app')
+@section('content') 
+<div class="containered">
 <h2>Modifier la tâche</h2>
 <form action="{{ route('tasks.update', $task->id) }}" method="POST">
  @csrf
@@ -16,3 +19,5 @@
  </select>
 <button type="submit">Mettre à jour</button>
 </form>
+</div>
+@endsection

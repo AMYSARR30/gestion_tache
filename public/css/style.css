@@ -1,6 +1,25 @@
 .content {
-    background-color: black;
+    background-color: chocolate;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+}
+.container1 {
+    background-color:yellowgreen;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
