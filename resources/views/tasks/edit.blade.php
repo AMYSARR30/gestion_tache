@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content') 
-<div class="containered">
+<div class="container2">
 <h2>Modifier la tâche</h2>
 <form action="{{ route('tasks.update', $task->id) }}" method="POST">
  @csrf

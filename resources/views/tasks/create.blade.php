@@ -1,3 +1,6 @@
+@extends('layouts.app')
+@section('content')
+<div class="container1">
 <h2>Ajouter une tâche</h2>
 <form action="{{ route('tasks.store') }}" method="POST">
  @csrf
@@ -9,3 +12,5 @@
  </select>
  <button type="submit">Ajouter</button>
 </form>
+</div>
+@endsection

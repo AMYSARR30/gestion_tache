@@ -10,6 +10,19 @@
     margin: 0 auto;
     padding: 20px;
 }
+.container2 {
+    background-color: lightblue;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container3 {
+    background-color: lightgray;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 h1, h2 {
     color: white;
     text-align: center;
